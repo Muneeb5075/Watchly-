@@ -1,29 +1,30 @@
 export const homeData = [
   {
     id: 1,
-    name: "Sand Dust",
+    name: "X-MEN",
     rating: 4.7,
     time: "2hr : 22mins",
-    desc: "Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust, white storms, and the harmattan, are a natural phenomenon linked with land and water management and climate change.",
-    starring: "Karen Gilchrist, James Earl Jones",
+    desc: "Mutants — born with extraordinary abilities — must choose to fight for peace or dominate mankind. As tensions rise between humans and mutants, two powerful leaders stand on opposite sides. The battle for the future begins.",
+    starring: "Professor Charles Xavier (Professor X)",
     genres: "Action",
     tags: "Action, Adventures, Horror",
-    cover: "/images/home1.jpg",
-    video: "/video/video1.mp4",
+    cover: "/images/X-men.jpg",
+    video: "/video/X-MEN.mp4",
     date: "20-Jan-1997",
   },
   {
     id: 2,
-    name: "skull island",
+    name: "Mickey 17",
     rating: 4.6,
     time: "2hr : 22mins",
-    desc: "The island, like its inhabitants, is wholly fictional. Kong's island home in the Pacific makes its first appearance, along with Kong himself, in the 1933 film King Kong. ",
+    desc: "Mickey 17 is one of many disposable workers sent to colonize a hostile planet. As secrets unravel and power struggles ignite, Mickey must fight not only for survival, but for his identity.",
     starring: "Brenda Chapman, Jeff Nathanson",
     genres: "Adventures",
     tags: "Adventures,Animation,Family",
-    cover: "/images/home2.jpg",
+    cover: "/images/robert_pattinson.jpg",
     video: "/images/kong-_skull_island_webp",
     date: "10-JUL-2021",
+    Object:"contain"
   },
   {
     id: 3,
@@ -85,10 +86,22 @@ export const upcome = [
   },
 ];
 export const latest = [
+    {
+    id: 5,
+    cover: "/images/upcome/u4.jpg",
+    name: "Latest Three",
+    time: "2hr : 38mins",
+  },
   {
     id: 1,
     cover: "/images/upcome/u6.png",
     name: "King of Jungle",
+    time: "2hr : 38mins",
+  },
+    {
+    id: 4,
+    cover: "/images/upcome/u5.jpg",
+    name: "Latest two",
     time: "2hr : 38mins",
   },
   {
@@ -103,23 +116,23 @@ export const latest = [
     name: "Latest Movie",
     time: "2hr : 38mins",
   },
-  {
-    id: 4,
-    cover: "/images/upcome/u5.jpg",
-    name: "Latest two",
-    time: "2hr : 38mins",
-  },
-  {
-    id: 5,
-    cover: "/images/upcome/u4.jpg",
-    name: "Latest Three",
-    time: "2hr : 38mins",
-  },
 ];
 
 export const trending = [
-  {
+    {
     id: 1,
+    name: "Jumbo Queen",
+    rating: 4.8,
+    time: "2hr : 22mins",
+    desc: "Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and other valuable items or properties. ",
+    starring: "James Chinlund, Jeff Nathanson",
+    genres: "Adventures",
+    tags: "Adventures,Action ",
+    cover: "/images/img/slide2.jpg",
+    date: "20-FEB-2010",
+  },
+  {
+    id: 2,
     name: "The Dinosaur",
     rating: 4.7,
     time: "2hr : 22mins",
@@ -131,7 +144,7 @@ export const trending = [
     date: "20-Jan-1997",
   },
   {
-    id: 2,
+    id: 3,
     name: "The Great Emperor",
     rating: 4.6,
     time: "2hr : 22mins",
@@ -139,23 +152,23 @@ export const trending = [
     starring: "Brenda Chapman, Jeff Nathanson",
     genres: "Adventures",
     tags: "Adventures,Animation,Family",
-    cover: "/images/img/slide2.jpg",
-    date: "10-JUL-2021",
-  },
-  {
-    id: 3,
-    name: "Jumbo Queen",
-    rating: 4.8,
-    time: "2hr : 22mins",
-    desc: "Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and other valuable items or properties. ",
-    starring: "James Chinlund, Jeff Nathanson",
-    genres: "Adventures",
-    tags: "Adventures,Action ",
     cover: "/images/img/slide3.jpg",
-    date: "20-FEB-2010",
+    date: "10-JUL-2021",
   },
 ];
 export const recommended = [
+    {
+    id: 1,
+    cover: "/images/rec/rec3.jpg",
+    name: "My office Boss",
+    time: "2hr : 38mins",
+  },
+    {
+    id: 2,
+    cover: "/images/rec/rec4.jpg",
+    name: "Shadowe",
+    time: "2hr : 38mins",
+  },
   {
     id: 4,
     cover: "/images/rec/rec1.jpg",
@@ -166,18 +179,6 @@ export const recommended = [
     id: 5,
     cover: "/images/rec/rec2.jpg",
     name: "Jumbo Queen",
-    time: "2hr : 38mins",
-  },
-  {
-    id: 1,
-    cover: "/images/rec/rec3.jpg",
-    name: "My office Boss",
-    time: "2hr : 38mins",
-  },
-  {
-    id: 2,
-    cover: "/images/rec/rec4.jpg",
-    name: "Shadowe",
     time: "2hr : 38mins",
   },
   {

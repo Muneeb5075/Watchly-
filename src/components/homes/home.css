@@ -19,7 +19,8 @@
 .coverImage img {
   width: 100vw;
   height: 100vh;
-  object-fit: cover;
+  object-fit:fill;
+  /* overflow: hidden; */
 }
 .homeContainer .content {
   padding: 100px;
